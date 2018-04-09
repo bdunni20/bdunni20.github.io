@@ -3,21 +3,26 @@ body {
   font-family: Raleway, lato, sans-serif;
 }
 
+.container {
+  width: auto;
+}
+
 
 /*header nav*/
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: row;
   font-size: 1.12em;
-  background-color: #494e6d;
+  background-color: #192231;
   border-bottom: 4px solid #192231;
   border-left: 2px solid #192231;
   border-right: 2px solid #192231;
   border-top: 1px solid #192231;
-  padding: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 0.75em;
+  padding-top: 1.11em;
+  padding-bottom: 1.11em;
 
 }
 
@@ -29,20 +34,52 @@ body {
   text-shadow: 2px 2px rgb(100, 100, 100);
   border-right: 1px solid #f9f1f1;
   margin-right: 3em;
-  padding-right: 10px;
+  padding-right: 0.75em;
 }
 
 .header span a {
   flex-grow: 1;
+  float: right;
   color: #f9f1f1;
   text-shadow: 2px 2px rgb(100, 100, 100);
   text-decoration: none;
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 1.11em;
 }
 
 .header span a:hover {
-  color: rgb(0,0,0);
+  color: rgb(255 255 255);
   text-shadow: none;
   text-decoration: underline;
 }
+
+
+/*main jumbotron*/
+
+
+.jumbotron {
+  text-align: center;
+  display: flex;
+}
+
+.sidebar {
+  text-align: center;
+  background-color: #985e6d;
+  margin:0px;
+  padding: 10px;
+}
+
+.main-image {
+  overflow: hidden;
+  text-align: center;
+  background-color: white;
+  width: 960px;
+  height: 300px;
+  min-height: 300px;
+  padding-top: 0px;
+}
+
+ .main-image img {
+   width: 100%;
+   min-height: 300px;
+ }
