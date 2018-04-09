@@ -9,15 +9,15 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  font-size: 1.25em;
-  background-color: #98878f;
+  font-size: 1.12em;
+  background-color: #494e6d;
   border-bottom: 4px solid #192231;
   border-left: 2px solid #192231;
   border-right: 2px solid #192231;
   border-top: 1px solid #192231;
   padding: 10px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
 }
 
@@ -28,7 +28,6 @@ body {
   color: #f9f1f1;
   text-shadow: 2px 2px rgb(100, 100, 100);
   border-right: 1px solid #f9f1f1;
-
   margin-right: 3em;
   padding-right: 10px;
 }
@@ -43,5 +42,7 @@ body {
 }
 
 .header span a:hover {
-  color: #192231;
+  color: rgb(0,0,0);
+  text-shadow: none;
+  text-decoration: underline;
 }
