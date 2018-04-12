@@ -21,6 +21,7 @@ body {
   background-color: #192231;
   margin:0px;
   padding: 20px;
+  font-size: 1em;
 
 }
 
@@ -30,6 +31,7 @@ body {
   height: 200px;
   overflow: scroll;
   background-color: #192231;
+
 }
 
 h1 {
