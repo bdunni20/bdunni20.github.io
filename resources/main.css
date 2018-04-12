@@ -20,7 +20,7 @@ body {
   text-align: center;
   background-color: #192231;
   margin:0px;
-  padding: 10px;
+  padding: 20px;
 
 }
 
@@ -35,7 +35,7 @@ body {
 h1 {
   font-family: lato sans-serif;
   color: #f9f1f1;
-  background-color: #494e6b;
+  background-color: ;
   margin: 0px;
   padding: 20px;
 }
@@ -49,7 +49,9 @@ h1 {
 .header {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+
+  flex-direction: ;
+  align-items: center;
   font-size: 1.12em;
   background-color: #192231;
   border-bottom: 4px solid #192231;
@@ -63,19 +65,28 @@ h1 {
 }
 
 .logo {
+  width: 100%;
   display: flex;
   justify-content: flex-start;
-  flex-grow: 2;
+  align-items: center;
   color: #f9f1f1;
   text-shadow: 2px 2px rgb(100, 100, 100);
-  border-right: 1px solid #f9f1f1;
+
   margin-right: 3em;
   padding-right: 0.75em;
 }
 
-.header span a {
-  flex-grow: 1;
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   float: right;
+  width: 100%;
+
+}
+
+.header span a {
+  float: left;
   color: #f9f1f1;
   text-shadow: 2px 2px rgb(100, 100, 100);
   text-decoration: none;
